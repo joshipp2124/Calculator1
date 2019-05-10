@@ -5,7 +5,7 @@ public class Calculator {
     public static void main(String[] args)
     {
         System.out.println("Enter first and second number:");
-        Scanner inp= new Scanner(System.in);
+        Scanner inp = new Scanner(System.in);
         int num1,num2;
         num1 = inp.nextInt();
         num2 = inp.nextInt();
@@ -15,7 +15,7 @@ public class Calculator {
         choose = inp.nextInt();
         switch (choose){
         case 1:
-            System.out.println(add( num1,num2));
+            System.out.println(add( num1, num2));
             break;
         case 2:
             System.out.println(sub( num1,num2));
@@ -31,33 +31,30 @@ public class Calculator {
 
 
         }
-
-
-
-    }
-    public static int add(int x, int y)
+ }
+    public static int add(int num1, int num2)
     {
     	int result=0;
-//        write your code here 
+        result = num1 + num2; 
     	
         return result;
     }
-    public static int sub(int x, int y)
+    public static int sub(int num1, int num2)
     {
     	int result=0;
-//        write your code here
-        return result;
-    }
-    public static int mult(int x, int y)
-    {
-    	int result=0;
-//      write your code here        
+        result = num1 - num2;
     	return result;
     }
-    public static int div(int x, int y)
+    public static int mult(int num1, int num2)
     {
     	int result=0;
-//      write your code here
+        result = num1 * num2;
+    	return result;
+    }
+    public static int div(int num1, int num2)
+    {
+    	int result=0;
+        result = num1 / num2;
     	return result;
     }
 
