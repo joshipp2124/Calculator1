@@ -5,10 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import main.Calculator;
 
-/*
- * CHANGING OF TEST FILES MAY LEAD TO DISQUALIFICATION OF PROJECTS !!!
- * 
- */
 
 public class TestingCalc {
 	Calculator c;
